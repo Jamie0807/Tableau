@@ -1,0 +1,38 @@
+# Tableau 临时文件
+*.twb~
+*.tbm
+.tmp
+
+# 数据文件（根据需要调整）
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+data/raw/
+data/sensitive/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# 操作系统
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 导出的大文件
+exports/*.pdf
+exports/*.png
+exports/*.jpg
